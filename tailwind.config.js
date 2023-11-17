@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        trueGray: colors.neutral,
         'text': {
           50: 'var(--text-50)',
           100: 'var(--text-100)',
