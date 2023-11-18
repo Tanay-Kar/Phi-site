@@ -8,13 +8,13 @@ const Hero = () => {
       <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2 ">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Free Landing Page Template for startups
+            <h1 className="text-6xl font-black lg:text-8xl shadow-text-50 text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-secondary-300 drop-shadow-mainTitle dark:bg-gradient-to-r dark:from-primary-400 dark:to-accent-900 dark:drop-shadow-mainDarkTitle">Phi</h1>
+            <h1 className="text-2xl font-bold leading-snug tracking-tight text-gray-600 lg:text-2xl lg:leading-tight xl:text-3xl xl:leading-tight dark:text-white">
+              Programmation Heuristique Interface
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               Nextly is a free landing page & marketing website
-              template for startups and indie projects. Its built with
-              Next.js & TailwindCSS. And its completely open-source.
+              template for startups and  projects.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
@@ -22,8 +22,8 @@ const Hero = () => {
                 href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
                 target="_blank"
                 rel="noopener"
-                className="animate ease-in-out duration-200 px-8 py-4 text-lg font-medium text-center text-white bg-secondary-500 rounded-md hover:-translate-y-2 hover:drop-shadow-mainSecondary ">
-                Download for Free
+                className="animate ease-in-out duration-200 px-8 py-4 text-lg font-medium text-center text-white bg-secondary-500 rounded-md hover:-translate-y-2 hover:drop-shadow-mainButton ">
+                Get Started
               </a>
               <a
                 href="https://github.com/Tanay-Kar/Phi"

@@ -8,7 +8,9 @@ module.exports = {
   theme: {
     extend: {
       dropShadow: {
-        'mainSecondary': '0 0 20px var(--secondary-500)',
+        'mainButton': '0 0 20px var(--secondary-500)',
+        'mainTitle': '0 0 5px var(--primary-600)',
+        'mainDarkTitle': '0 0 5px var(--secondary-300)',
       },
       colors: {
         trueGray: colors.neutral,
