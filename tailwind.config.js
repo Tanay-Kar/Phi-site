@@ -7,6 +7,9 @@ module.exports = {
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
+      dropShadow: {
+        'mainSecondary': '0 0 20px var(--secondary-500)',
+      },
       colors: {
         trueGray: colors.neutral,
         'text': {
